@@ -19,9 +19,9 @@ Type commands at the prompt to query.
 Commands
 =================
 
-* open: open connecton to serial port
-* close: close connection to serial port
-* exit or quit:  exit application
+* _open_: new connecton to serial port
+* _close_: end connection to serial port
+* _exit_ or _quit_:  exit application
 
 Any PID from http://en.wikipedia.org/wiki/OBD-II_PIDs
 
