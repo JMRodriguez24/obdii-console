@@ -1,6 +1,6 @@
 (defproject hello-world "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "Simple console to interact with obdii through serial port!"
+  :url "https://github.com/JMRodriguez24/obdii-console"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2505"]
@@ -16,10 +16,10 @@
   :source-paths ["src"]
 
   :cljsbuild {
-    :builds [{:id "hello-world"
+    :builds [{:id "dev"
               :source-paths ["src"]
               :compiler {
-                :output-to "out/hello_world.js"
+                :output-to "out/obdii-console.js"
                 :output-dir "out"
                 :target :nodejs
                 :optimizations :none
